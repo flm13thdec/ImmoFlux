@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-08T23:09:56 IST" name="Default suite" finished-at="2024-03-08T23:12:16 IST" duration-ms="139987">
+    <groups>
+    </groups>
+    <test started-at="2024-03-08T23:09:56 IST" name="Default test" finished-at="2024-03-08T23:12:16 IST" duration-ms="139987">
+      <class name="testscripts.Login">
+        <test-method is-config="true" signature="filesRead()[pri:0, instance:testscripts.Login@4b8d604b]" started-at="2024-03-08T23:09:56 IST" name="filesRead" finished-at="2024-03-08T23:09:56 IST" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filesRead -->
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:testscripts.Login@4b8d604b]" started-at="2024-03-08T23:09:56 IST" name="startBrowser" finished-at="2024-03-08T23:10:01 IST" depends-on-methods="com.apollons.base.BaseTest.filesRead" duration-ms="5111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method signature="validateLoginTest(java.util.ArrayList)[pri:0, instance:testscripts.Login@4b8d604b]" started-at="2024-03-08T23:10:01 IST" name="validateLoginTest" data-provider="getData" finished-at="2024-03-08T23:12:15 IST" duration-ms="133943" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[{Nr Camere=1, ZONA=Lujerului, DISP=IMD, nr=3, compartimentare=Semidecomandat, Interval VIZIONARI=Oricand, OBS 1=NA, TITLU=Lujerului Metrou Veteranilor Dreptatii Proaspat Renovata Lux, OBS 2=NA, ANAF=Discutabil, Nr Dormitoare=1, HEAT=CI + convect, nr TEL=+40 76576543, AN CONSTR=2022, Pet Friendly=DA, LINK=https://www.olx.ro/d/oferta/proprietar-inchiriez-garsoniera-metrou-lujerului-IDhN1da.html?isPreviewActive=0&sliderIndex=1, Nume=x, Str.=Dreptatii, MOD Plata=1+1, COMPLEX=Bloc Vechi, Preferinte Clienti=NA, nr bai=1, %=0, tip parcare=parcare subterana, S.C=40, nr balc=1, Price=380, etaj=2, Parcari=0, S.U=30, total etaje=8}, {Nr Camere=1, ZONA=Lujerului, DISP=IMD, nr=3, compartimentare=Semidecomandat, Interval VIZIONARI=Oricand, OBS 1=NA, TITLU=Lujerului Metrou Veteranilor Dreptatii Proaspat Renovata Lux, OBS 2=NA, ANAF=Discutabil, Nr Dormitoare=1, HEAT=Termoficare, nr TEL=+40 765765444, AN CONSTR=2022, Pet Friendly=DA, LINK=https://www.olx.ro/d/oferta/proprietar-inchiriez-garsoniera-metrou-lujerului-IDhN1da.html?isPreviewActive=0&sliderIndex=1, Nume=y, Str.=Dreptatii, MOD Plata=1+1, COMPLEX=Bloc Vechi, Preferinte Clienti=NA, nr bai=1, %=0, tip parcare=parcare subterana, S.C=40, nr balc=1, Price=390, etaj=2, Parcari=0, S.U=30, total etaje=8}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginTest -->
+        <test-method is-config="true" signature="closeReports()[pri:0, instance:testscripts.Login@4b8d604b]" started-at="2024-03-08T23:12:15 IST" name="closeReports" finished-at="2024-03-08T23:12:16 IST" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeReports -->
+      </class> <!-- testscripts.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
